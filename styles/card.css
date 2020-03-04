@@ -1,0 +1,58 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 13px; }
+  .card:nth-child(4n) {
+    margin-right: 0; }
+  .card__img {
+    width: 160px;
+    height: 134px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    margin-top: 30px; }
+  .card__about {
+    width: 170px; }
+  .card__info {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 6px;
+    line-height: 15px; }
+  .card__code {
+    margin-bottom: 15px; }
+  .card__stars-comments {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 18px; }
+  .card__price {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    margin-bottom: 20px; }
+  .card__price-value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px; }
+
+/*# sourceMappingURL=card.css.map */
