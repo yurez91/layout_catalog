@@ -12,20 +12,21 @@
   line-height: 13px; }
   .card:nth-child(4n) {
     margin-right: 0; }
-  .card__img {
-    width: 160px;
-    height: 134px;
-    margin: 0 auto;
-    margin-bottom: 45px;
-    margin-top: 30px;
+  .card__container-img {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 12px 0;
+    border: 3px solid transparent;
     -webkit-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out; }
-    .card__img:hover {
+    .card__container-img:hover {
       -webkit-transform: scale(1.2);
               transform: scale(1.2);
       border: 3px solid #f3f3f3;
-      margin-top: 13px;
-      padding: 10px 0; }
+      border-radius: 3px; }
+  .card__img {
+    width: 160px;
+    height: 134px; }
   .card__about {
     width: 170px; }
   .card__info {
